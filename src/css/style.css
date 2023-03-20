@@ -1,0 +1,165 @@
+header nav .menu__help ul.nav li a:hover{
+    color: #00bdec !important;
+}
+header nav .menu__main .menu__main--content ul li a{
+    font-size: 18px;
+    font-weight: 700;
+}
+header nav .menu__main .menu__main--content ul li {
+    transition: all linear 0.1s;
+}
+header nav .menu__main .menu__main--content ul li:not(:last-child):hover{
+    background-color: #00305b !important;
+    border-radius: 40px !important;
+}
+header nav .menu__main .menu__main--content ul li:not(:last-child):hover>a {
+    color: #ffffff !important;
+}
+.text-decoration-none{
+    color: #00305b;
+    font-size: 14px;
+}
+.text-decoration-none:hover{
+    color: #00305b;
+    color: #00bdec !important;
+}
+.form-select{
+    border-color: #00305b;
+}
+.btn.btn-dark.fw-bold {
+    background: 0 0/50% 50% #024077;
+    box-shadow: 0 7px #023361;
+    transition:  all linear 0.2s;
+}
+.btn.btn-dark.fw-bold:hover {
+    background: #004989 !important;
+    transform: translateY(7px);
+    box-shadow: none;
+}
+.img__content{
+    overflow: hidden;
+}
+.card-img-top.rounded-0{
+    object-fit: cover;
+    width: 100%;
+    transform: scale(1);   
+    transition: 0.3s linear; 
+}
+.card-img-top.rounded-0:hover{
+    transform: scale(1.2);  
+
+}
+.menu__near--footer ul li a span{
+    font-size: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(100% - 40px);
+    word-break: normal;
+}
+button.rounded-end.position-absolute {
+    transition: all 0.2s linear;
+}
+button.rounded-end.position-absolute:hover {
+    background-color: #00bdec !important;
+}
+.information__booking.position-absolute {
+    color: #ffffff;
+}
+.booking__shadow{
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.signup__email {
+    background-color: #D8EBF9;
+}
+button.signup__email-btn{
+    background: linear-gradient(180deg,#8cd660,#7ec156 50%,#589f46);
+    border: none;
+    color: #ffffff;
+    background-size: 100% 200%;
+    background-position: 0 0;
+    transition: all linear 0.2s;
+}
+button.signup__email-btn.ticket{
+    box-shadow: 0 8px 0 #639743;
+}
+button.signup__email-btn.ticket:hover{
+    box-shadow: 0 8px 0 #4f7736;
+}
+button.signup__email-btn:hover {
+    background-position: 0 100% !important;
+    color: #ffffff;
+}
+button.signup__email-btn.ticket:active{
+    box-shadow: none;
+    transform: translateY(8px);
+    color: #ffffff;
+}
+p.text-white.fs-2 {
+    vertical-align: middle;
+    width: calc(100% - 10px);
+    word-break: normal;
+}
+button.btn.btn-view.fw-bold{
+    border: 1px solid #00305b;
+    color: #00305b; 
+    font-size: 14px;
+    transition: all linear 0.2s;
+}
+button.btn.btn-view.fw-bold:hover {
+    border: 1px solid #00bdec;
+    color: #00bdec; 
+}
+.footer__contact{
+    background-color: #4EBDEC;
+}
+.footer__contact>a.p-2.me-1.rounded-circle{
+    transition: all linear 0.1s;
+}
+.footer__contact>a.p-2.me-1.rounded-circle:hover {
+    background-color: rgba(0,48,91,.8) !important;
+}
+.footer__background {
+    background-image: url(/src/img/background_footer.png);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+}
+.hiddenMenuHelp {
+    display: none;
+}
+input.money__max::placeholder{
+    color: #00305b;
+}
+table.table.table-hover th {
+    font-size: 14px;
+    transition: all linear 0.4s;
+}
+table.table.table-hover td {
+    font-size: 15px;
+    color: #00305b;
+    transition: all linear 0.4s;
+
+}
+table.table.table-hover tbody tr:hover{
+    background-color: #00305b;
+    cursor: pointer;
+}
+table.table.table-hover tbody tr:hover th{
+    color: #ffffff;
+}
+table.table.table-hover tbody tr:hover td{
+    color: #ffffff;
+}
+button.view__btn--sale-ticket{
+    border: 1px solid #054175;
+    background-color: #054175;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 7px 0 #012646;
+    transition: all linear 0.3s;
+}
+button.view__btn--sale-ticket:active{
+    transform: translateY(7px);
+    box-shadow: none;
+}
