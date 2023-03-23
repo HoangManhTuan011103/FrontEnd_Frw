@@ -1,0 +1,3 @@
+window.TicketController = function($scope) {
+    
+}
